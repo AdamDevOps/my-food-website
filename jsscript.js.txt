@@ -1,0 +1,9 @@
+<!-- Add this button to your HTML file -->
+<button id="changeColorBtn">Change Header Color</button>
+
+<!-- Link this script in your HTML file before the closing </body> tag -->
+<script>
+    document.getElementById('changeColorBtn').addEventListener('click', function() {
+        document.querySelector('header').style.backgroundColor = '#ff6347'; // Tomato color
+    });
+</script>
